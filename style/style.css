@@ -1,4 +1,81 @@
-nav {
+/* open-sans-300 - latin_cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/open-sans-v20-latin_cyrillic-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/open-sans-v20-latin_cyrillic-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/open-sans-v20-latin_cyrillic-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/open-sans-v20-latin_cyrillic-300.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/open-sans-v20-latin_cyrillic-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/open-sans-v20-latin_cyrillic-300.svg#OpenSans') format('svg'); /* Legacy iOS */
+  }
+  /* open-sans-regular - latin_cyrillic */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v20-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/open-sans-v20-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/open-sans-v20-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/open-sans-v20-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/open-sans-v20-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/open-sans-v20-latin_cyrillic-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+  }
+  
+
+/* Header */
+
+.nav-logo {
+    font-family: Raleway, sans-serif;
     font-size: 42px;
-    color: blue;
+    letter-spacing: 0em;
+    text-align: left;
+    color: b#FBF2DA;
+}
+
+.nav-phone {
+    font-family: Roboto, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #FBF2DA;
+}
+
+.some-block {  
+    background-repeat: no-repeat;  
+    background-position: center;  
+    background-size: cover;
+    background-color:#152B3C;  
+}
+
+
+/* Info-presentation */
+
+.info-presentation-h1 {
+    font-family: Raleway, sans-serif;
+    font-size: 116px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.info-presentation-block {  
+    background-image: url('../images/sand castle.jpg');  
+    background-repeat: no-repeat;  
+    background-position: center;  
+    background-size: cover; 
+}
+
+.info-presentation-text {
+    font-family: Open Sans, sans-serif;
+    font-size: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
 }
