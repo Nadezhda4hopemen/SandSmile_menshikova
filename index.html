@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SandSmile</title>
-    <link rel="preconnect" href="https //fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
 
 </head>
@@ -15,30 +12,180 @@
 <body>
     
     <header class="header">
-        <nav class="main-nav">
-            <div class="some-block">
-                <p class="nav-logo">SandSmile</p>
-                 <ul>
-                    <li><a href="#"></a>Мастер-классы</li>
-                    <li><a href="#"></a>Локации</li>
-                    <li><a href="#"></a>Контакты</li>
-                    <li><a href="#"></a>Сувениры</li>
-                 </ul>
-                <p class="nav-phone">+7 812 888-88-88</p>
-            </div>
-        </nav>
+        <div class="container">
+            <nav class="main-nav">
+                <div class="nav-some-block">
+                    <p class="nav-logo">SandSmile</p>
+
+                    <ul class="nav-flex-conteiner">
+                        <li><a href="#">Мастер-классы</a></li>
+                        <li><a href="#">Локации</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Сувениры</a></li>
+                    </ul>
+                    
+                    <p class="nav-phone">+7 812 888-88-88</p>
+                </div>
+            </nav>
+        </div>
     </header>
 
     <main>
         <section class="info-presentation">
-            <div class="info-presentation-block">
-            <h1 class="info-presentation-h1">SandSmile</h1>
-            <p class="info-presentation-text">Учим строить песочные замки, проводим мастер-классы для <br>
-            взрослых и детей в Санкт-Петербурге и ленинградской области</p>
+            <div class="container">
+                <div class="info-presentation-block">
+                    <h1 class="info-presentation-title">SandSmile</h1>
+                    <p class="info-presentation-text">Учим строить песочные замки, проводим мастер-классы для <br>
+                    взрослых и детей в Санкт-Петербурге и ленинградской области</p>
+                    <img src="info-presentation-sand-castle" alt="Замок из песка">
+                </div>
+            </div>
+        </section>
+
+        <section class="master-classes">
+            <div class="container">
+                <h2 class="master-classes-title">Мастер-классы</h2>
+                <div class="master-classes-childlike">
+                    <p class="master-classes-childlike">Детский</p>
+                    <img src="images/master-classes-childlike.jpg" alt="Детский">
+                    <p class="childlike-master-classes">Внедрение современных методик <br>
+                        позволяет оценить.<br>
+                        от 8 лет<br>
+                        2 часа<br>
+                        до 6 человек<br>
+                        10 000 ₽
+                    </p>
+                    <button class="master-classes-btn">Заказать</button>
+                </div>
+                <div class="master-classes-family">
+                    <p class="master-classes-family">Семейный</p>
+                    <img src="images/master-classes-family.jpg" alt="Семейный">
+                    <p>В целом, конечно, внедрение<br>
+                        современных методик обеспечивает<br>
+                        широкому кругу (специалистов) участие в<br>
+                        формировании экспериментов<div class="br"></div>
+                        3 часа<br>
+                        до 6 человек<br>
+                        20 фото 10х15 <br>
+                        20 000 ₽
+                    </p>
+                    <button class="master-classes-btn">Заказать</button>
+                </div>
+                <div class="master-classes-for-the-company">
+                    <p class="master-classes-for-the-company">На компанию</p>
+                    <img src="images/master-classes-for-the-company.jpg" alt="На компанию">
+                    <p>Вы не только запомните потрясающий <br>
+                        мастер класс, но и отличн отдохнете! <br>
+                        от 18 лет<br>
+                        с 19-00 и до утра<br>
+                        ∞ человек<br>
+                        ∞ коктейли<br>
+                        DJ <br>
+                        5000 ₽/чел
+                    </p>
+                    <button class="master-classes-btn">Заказать</button>
+                </div>
+            </div>
+        </section>
+        <section class="photos-from-events">
+            <div class="container">
+                <div class="photos-from-events">
+                    <h2 class="photos-from-events">Фото с мероприятий</h2>
+                    <img src="icons/photos-from-events-left-arrow.svg" alt="Левая стрелка">
+                    <img src="images/photos-from-events-the-guy-builds.jpg" alt="Парень строит">
+                    <img src="icons/photos-from-events-right-arrow.svg" alt="Правая стрелка">
+                    <img src="icons/photos-from-events-Ellipse-1.svg" alt="Круг 1">
+                    <img src="icons/photos-from-events-Ellipse-2.svg" alt="Круг 2">
+                    <img src="icons/photos-from-events-Ellipse-3.svg" alt="Круг 3">
+                    <img src="icons/photos-from-events-Ellipse-4.svg" alt="Круг 4">
+                </div>
+            </div>
+        </section>
+        <section class="locations">
+            <div class="container">
+                <div class="locations">
+                    <h2 class="locations-title">Локации</h2>
+                    <div class="locations-the-beach-in-the-Peter-and-Paul-fortress">
+                        <p class="locations-the-beach-in-the-Peter-and-Paul-fortress">Пляж Петропавловской 
+                            крепости</p>
+                        <img src="images/locations-the-beach-in-the-Peter-and-Paul-fortress.jpg" alt="Пляж Петропавловской крепости">
+                        <a href="#">Подробнее о локации</a>
+                    </div>
+                    <div class="locations-lighthouse">
+                        <p class="locations-lighthouse">Осиновецкий маяк</p>
+                        <img src="images/locations-lighthouse.jpg" alt="Осиновецкий маяк">
+                        <a href="#">Подробнее о локации</a>
+                    </div>
+                    <div class="locations-tercentenary-park">
+                        <p class="locations-tercentenary-park">Парк имени 300-летия Санкт-Петербурга</p>
+                        <img src="images/locations-tercentenary-park.jpg" alt="Парк имени 300-летия Санкт-Петербурга">
+                        <a href="#">Подробнее о локации</a>
+                    </div>
+                    <div class="locations-beach-in-the-area">
+                        <p class="locations-beach-in-the-area">Ласковый пляж в Курортном р-не</p>
+                        <img src="images/locations-beach-in-the-area.jpg" alt="Ласковый пляж в Курортном р-не">
+                        <a href="#">Подробнее о локации</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="team">
+            <div class="container">
+                <div class="team">
+                    <h2 class="team-title">Команда</h2>
+                    <img src="images/team-Sir_Lee_Wow_I.jpg" alt="team-Sir_Lee_Wow_I">
+                    <a href="#">Sir Lee Wow I</a>
+                    <img src="images/team-Penelope.jpg" alt="team-Penelope">
+                    <a href="#">Penelope</a>
+                    <img src="images/team-Mr._B.B..jpg" alt="team-Mr._B.B.">
+                    <a href="#">Mr. B.B.</a>
+                    <img src="images/team-Sir_Lee_Wow_II.jpg" alt="team-Sir_Lee_Wow_II">
+                    <a href="#">Sir Lee Wow II</a>
+                    <p class="team-Sir Lee Wow II">Sir Lee Wow II</p>
+                    <p class="team-text">Брат близнец Сира Ли Первого. Вместе с братом - весьма эффективная команда по приготовлению бургеров и прочих закусок. В <br>
+                        нашей команде есть легенда, что однажды они сделали столько бургеров, что даже мистер Биг Бургер (Mr. B.B.) не смог их <br>
+                        съесть.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="container">
+                <h2 class="contacts-title">Контакты</h2>
+                <link class="contacts-text">Остались вопросы? Позвоните нам по телефону <a href="#">+7 812 888-88-88</a>, напишите в <a href="#">whatsapp</a>или заполните <br>
+                    форму и мы ответим вам в whatsapp по указанному номеру телефона.</p>
+                    <form action="#">Форма для заполнения</form>
+                    <img src="icons/contacts-ic_round-check-box.svg" alt="Галочка">
+                    <p>Даю согласие на обработку персональных данных с соответствии с <a href="#">политикой <br>
+                        обработки персональных данных</a></p>
+                    <button class="contacts-btn">Отправить</button>
             </div>
         </section>
     </main>
 
-    <footer></footer>
+    <footer>
+        <div class="container">
+            <div class="social">
+                <p class="copyright">© Ничего не защищено</p>
+    
+                <ul class="social_icon">
+                    <li class="social_icon">
+                        <a href="#" class="social_link_instagram">
+                            перейти на страницу компании в instagram
+                        </a>
+                    </li>
+                    <li class="social_icon">
+                        <a href="#" class="social_link facebook">
+                            facebook
+                        </a>
+                    </li>
+                    <li class="social_icon">
+                        <a href="#" class="social_link telegram">
+                            telegram
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
