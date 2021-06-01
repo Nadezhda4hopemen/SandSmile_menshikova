@@ -6,7 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SandSmile</title>
     <link rel="stylesheet" href="style/style.css">
-
+    <style>
+    h1 {
+        font-family: 'Raleway';
+        font-style: normal;
+        color: #FFFFFF;
+        font-size: 116px;
+        font-weight: 300;
+        font-size: 116px;
+        line-height: 136px;
+        text-align: center;
+       }
+      </style>
 </head>
 
 <body>
@@ -14,8 +25,8 @@
     <header class="header">
         <div class="container">
             <nav class="main-nav">
-                <div class="nav-some-block">
-                    <p class="nav-logo">SandSmile</p>
+                <div class="header_wrap">
+                    <a href="icons/logo_SandSmile.svg" class="logo">SandSmile</a>
 
                     <ul class="nav-flex-conteiner">
                         <li><a href="#">Мастер-классы</a></li>
@@ -50,12 +61,12 @@
                     <img src="images/master-classes-childlike.jpg" alt="Детский">
                     <p class="childlike-master-classes">Внедрение современных методик <br>
                         позволяет оценить.<br>
-                        от 8 лет<br>
-                        2 часа<br>
-                        до 6 человек<br>
-                        10 000 ₽
+                        от <span class="select_bold">8</span> лет<br>
+                        <span class="select_bold">2</span> часа<br>
+                        до <span class="select_bold">6</span> человек<br>
+                        <span class="select_semibold">10 000 ₽</span>
                     </p>
-                    <button class="master-classes-btn">Заказать</button>
+                    <button class="master-classes-btn"><a href="#">Заказать</a></button>
                 </div>
                 <div class="master-classes-family">
                     <p class="master-classes-family">Семейный</p>
@@ -64,26 +75,26 @@
                         современных методик обеспечивает<br>
                         широкому кругу (специалистов) участие в<br>
                         формировании экспериментов<div class="br"></div>
-                        3 часа<br>
-                        до 6 человек<br>
-                        20 фото 10х15 <br>
-                        20 000 ₽
+                        <span class="select_bold">3</span> часа<br>
+                        до <span class="select_bold">6</span> человек<br>
+                        <span class="select_bold">20</span> фото 10х15 <br>
+                        <span class="select_semibold">20 000 ₽</span>
                     </p>
-                    <button class="master-classes-btn">Заказать</button>
+                    <button class="master-classes-btn"><a href="#">Заказать</a></button>
                 </div>
                 <div class="master-classes-for-the-company">
                     <p class="master-classes-for-the-company">На компанию</p>
                     <img src="images/master-classes-for-the-company.jpg" alt="На компанию">
                     <p>Вы не только запомните потрясающий <br>
                         мастер класс, но и отличн отдохнете! <br>
-                        от 18 лет<br>
-                        с 19-00 и до утра<br>
-                        ∞ человек<br>
-                        ∞ коктейли<br>
-                        DJ <br>
-                        5000 ₽/чел
+                        от <span class="select_bold">18</span> лет<br>
+                        с <span class="select_bold">19-00</span> и до <span class="select_bold">утра</span><br>
+                        <span class="select_bold">∞</span> человек<br>
+                        <span class="select_bold">∞</span> коктейли<br>
+                        <span class="select_bold">DJ</span> <br>
+                        <span class="select_semibold">5000 ₽/чел</span>
                     </p>
-                    <button class="master-classes-btn">Заказать</button>
+                    <button class="master-classes-btn"><a href="#">Заказать</a></button>
                 </div>
             </div>
         </section>
@@ -133,14 +144,22 @@
             <div class="container">
                 <div class="team">
                     <h2 class="team-title">Команда</h2>
-                    <img src="images/team-Sir_Lee_Wow_I.jpg" alt="team-Sir_Lee_Wow_I">
-                    <a href="#">Sir Lee Wow I</a>
-                    <img src="images/team-Penelope.jpg" alt="team-Penelope">
-                    <a href="#">Penelope</a>
-                    <img src="images/team-Mr._B.B..jpg" alt="team-Mr._B.B.">
-                    <a href="#">Mr. B.B.</a>
-                    <img src="images/team-Sir_Lee_Wow_II.jpg" alt="team-Sir_Lee_Wow_II">
-                    <a href="#">Sir Lee Wow II</a>
+                    <figure>
+                        <img src="images/team-Sir_Lee_Wow_I.jpg" alt="team-Sir_Lee_Wow_I">
+                        <figcaption><a href="#">Sir Lee Wow I</a></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/team-Penelope.jpg" alt="team-Penelope">
+                        <figcaption><a href="#">Penelope</a></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/team-Mr._B.B..jpg" alt="team-Mr._B.B.">
+                        <figcaption><a href="#">Mr. B.B.</a></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/team-Sir_Lee_Wow_II.jpg" alt="team-Sir_Lee_Wow_II">
+                        <figcaption><a href="#">Sir Lee Wow II</a></figcaption>
+                    </figure>
                     <p class="team-Sir Lee Wow II">Sir Lee Wow II</p>
                     <p class="team-text">Брат близнец Сира Ли Первого. Вместе с братом - весьма эффективная команда по приготовлению бургеров и прочих закусок. В <br>
                         нашей команде есть легенда, что однажды они сделали столько бургеров, что даже мистер Биг Бургер (Mr. B.B.) не смог их <br>
@@ -162,7 +181,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
             <div class="social">
                 <p class="copyright">© Ничего не защищено</p>
@@ -170,7 +189,7 @@
                 <ul class="social_icon">
                     <li class="social_icon">
                         <a href="#" class="social_link_instagram">
-                            перейти на страницу компании в instagram
+                            instagram
                         </a>
                     </li>
                     <li class="social_icon">
